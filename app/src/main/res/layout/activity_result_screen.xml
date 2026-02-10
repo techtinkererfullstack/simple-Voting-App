@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFDF"
+    android:orientation="vertical"
+    tools:context=".ResultScreen"
+    android:paddingTop="50.dp"
+    >
+
+    <TextView
+
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10.dp"
+        android:text="Voting Result"
+        android:textColor="#3A6F43"
+        android:textSize="30.dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.dp"
+        android:padding="30.dp"
+        app:cardBackgroundColor="#FCFFC1"
+        app:cardCornerRadius="20.dp"
+        app:cardElevation="20.dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20.dp">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15.dp"
+                android:text="Mufti Ismail Ibne Menk : 152410"
+                android:textColor="#355F2E"
+                android:textSize="20.dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15.dp"
+                android:text="Noman Ali Khan : 152410"
+                android:textColor="#355F2E"
+                android:textSize="20.dp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
