@@ -46,6 +46,7 @@
 
 
             <TextView
+                android:id="@+id/votingATV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="15.dp"
@@ -54,6 +55,7 @@
                 android:textSize="20.dp"
                 android:textStyle="bold" />
             <TextView
+                android:id="@+id/votingBTV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="15.dp"
@@ -62,7 +64,12 @@
                 android:textSize="20.dp"
                 android:textStyle="bold" />
 
-
+            <TextView
+                android:id="@+id/tvWinner"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
 
         </LinearLayout>
