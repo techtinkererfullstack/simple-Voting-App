@@ -15,7 +15,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Studend Voting System"
+        android:text="Student Voting System"
         android:textStyle="bold"
         android:textSize="30.dp"
         android:gravity="center_horizontal"
